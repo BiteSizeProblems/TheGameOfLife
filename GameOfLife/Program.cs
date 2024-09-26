@@ -12,7 +12,9 @@ builder
     .AddSession()
     .AddHttpContextAccessor()
     .AddDistributedMemoryCache()
-    .AddSingleton<GameOfLifeService>();
+    .AddSingleton<GameOfLifeService>()
+    .AddScoped<BoardService>()
+    .AddScoped<SessionInfoService>();
 
 WebApplication app = builder.Build();
 

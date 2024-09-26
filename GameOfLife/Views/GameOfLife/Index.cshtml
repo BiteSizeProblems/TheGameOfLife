@@ -8,13 +8,21 @@
 
     <div class="content-container">
 
+        @await Html.PartialAsync("_Modal")
+
         <div class="side-panel">
 
             <div class="header text-center">
                 <h1 class="display-4">The Game of Life</h1>
             </div>
 
+            @await Html.PartialAsync("_Instructions")
+
+            @await Html.PartialAsync("_SessionInfo", Model.SessionInfo)
+
         </div>
+
+        @await Html.PartialAsync("_Board", Model.Board)
 
     </div> 
 

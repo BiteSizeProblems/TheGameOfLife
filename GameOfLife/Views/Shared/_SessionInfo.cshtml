@@ -1,0 +1,12 @@
+﻿@using GameOfLife.ViewModels
+@model SessionInfoViewModel
+
+<div class="session-info">
+    <p><strong>Generation:</strong> <span id="generationCount">@Model.Generation</span></p>
+    <p><strong>Alive Cells:</strong> <span id="aliveCells">@Model.TotalAliveCells</span></p>
+    <p><strong>Dead Cells:</strong> <span id="deadCells">@Model.TotalDeadCells</span></p>
+    <p><strong>At Risk of Underpopulation:</strong> <span id="underpopulationRisk">@Model.CellsAtRiskOfUnderpopulation</span></p>
+    <p><strong>At Risk of Overcrowding:</strong> <span id="overcrowdingRisk">@Model.CellsAtRiskOfOvercrowding</span></p>
+    <p><strong>Will Survive:</strong> <span id="willSurvive">@Model.CellsThatWillSurvive</span></p>
+    <p><strong>Will Reproduce:</strong> <span id="willReproduce">@Model.CellsThatWillReproduce</span></p>
+</div>
