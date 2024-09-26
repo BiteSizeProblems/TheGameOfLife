@@ -5,6 +5,8 @@ VisualStudioVersion = 17.9.34607.119
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GameOfLife", "GameOfLife\GameOfLife.csproj", "{571884C2-3DE9-4180-9402-D422F7F2F317}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GameOfLifeTests", "GameOfLifeTests\GameOfLifeTests.csproj", "{ADF9D050-3EC1-4634-A3BD-82E3C7E5CCFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{571884C2-3DE9-4180-9402-D422F7F2F317}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{571884C2-3DE9-4180-9402-D422F7F2F317}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{571884C2-3DE9-4180-9402-D422F7F2F317}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADF9D050-3EC1-4634-A3BD-82E3C7E5CCFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADF9D050-3EC1-4634-A3BD-82E3C7E5CCFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADF9D050-3EC1-4634-A3BD-82E3C7E5CCFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADF9D050-3EC1-4634-A3BD-82E3C7E5CCFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
